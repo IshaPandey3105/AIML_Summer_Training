@@ -1,7 +1,8 @@
-## **Quetions**
+# ============================================
+#             QUESTIONS (List Practice)
+# ============================================
 
-
-## Q1 Counting no. of students fail and pass
+## Q1: Counting number of students fail and pass
 # marks=[20,45,50,12,40]
 # p=0
 # f=0
@@ -13,9 +14,9 @@
 # print("No. of students fail ::",f)
 # print("No. of students pass ::",p)
 
+# ============================================
 
-
-## Q2 searching a particular name
+## Q2: Searching a particular name
 # sname=["neha","priya","pooja","dolly","Garima"]
 # name=input("Enter the name to be searched::").lower()
 # for i in sname:
@@ -29,23 +30,23 @@
 # else:
 #     print("Name not found")
 
+# ============================================
 
-
-## Q3 count the no. of vowels and consonants in a string
+## Q3: Count the no. of vowels and consonants in a string
 # s="Hello World"
 # vowels=0
 # consonants=0
 # for i in s:
-#     if(i=='a' or i=='e' or i=='i' or i=='o ' or i=='u'):
+#     if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u'):
 #         vowels+=1
 #     else:
 #         consonants+=1
 # print("Total vowels:" ,vowels)
 # print("Total consonants:" ,consonants)
 
+# ============================================
 
-
-## Q4 count the even and odd no.
+## Q4: Count the even and odd numbers
 # L=range(0,20)
 # even=0
 # odd=0
@@ -57,9 +58,9 @@
 # print("Total even no.:" ,even)
 # print("Total odd no.:" , odd)
 
+# ============================================
 
-
-## Q5 Calculating average of marks
+## Q5: Calculating average of marks
 # marks=[]
 # sum=0
 # n=int(input("Enter total no. of students::"))
@@ -70,9 +71,9 @@
 #     sum+=i
 # print("Average marks",sum/n)
 
+# ============================================
 
-
-## Q6 creating a new list  from rupees list to dollar
+## Q6: Creating a new list from rupees list to dollar
 # R=[100,200,300,400,500]
 # D=[]
 # for i in R:
@@ -80,9 +81,9 @@
 #     D.append(i*0.012)
 # print(D)
 
+# ============================================
 
-
-## Q7 Removing less salary from a list and adding in another
+## Q7: Removing low salaries into another list
 # L1=[100,10000,20000,700,30000,500,40000,50000,800,9,8]
 # L2=[]
 # for i in L1:
@@ -92,8 +93,7 @@
 # print(L1)
 # print(L2)
 
-# Correct Method
-
+#  Correct Method using copy of list
 # L1 = [100, 10000, 20000, 700, 30000, 500, 40000, 50000, 800, 9, 8]
 # L2 = []
 # for i in L1[:]:  # iterate over a copy
@@ -103,8 +103,9 @@
 # print(L1)
 # print(L2)
 
+# ============================================
 
-## Q8 write a programme to find out the highest and lowest no. in a list without using built in fn
+## Q8: Find highest and lowest number in a list (without built-in functions)
 L1=[1000,1,2,3,4,500,6,7,8,9,100]
 min=L1[0]
 max=L1[0]
@@ -115,5 +116,3 @@ for i in L1:
         max=i
 print(min)
 print(max)
-
-   

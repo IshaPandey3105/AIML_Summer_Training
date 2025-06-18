@@ -1,4 +1,7 @@
-# LIST (data structure)
+# ============================================
+#           LIST (Data Structure)
+# ============================================
+
 # To store various types of data
 # ordered collection of items (Heterogeneous elems)
 
@@ -8,9 +11,9 @@
 # for i in fruits:
 #     print("I Like ", i)
 
-
-
-# Accessing the elements (Indexing and Slicing )
+# ============================================
+#      Accessing the elements (Indexing and Slicing)
+# ============================================
 
 # 1. Indexing : When we want to retrive single element from list
 
@@ -35,22 +38,16 @@
 # print(marks[-6:-3:-1])  
 # print(marks[::-1])  # Reverse
 # print(marks[::])    # Full List
-
 # l1 = list(range(0, 10))
 # print(l1)
 # print(l1[4:])
 
+# ============================================
+#        LIST METHODS
+# ============================================
 
+## Adding elements: append(), insert(), extend()
 
-## LIST METHODS :- append (),insert(),remove(),pop(),sort(),reverse(),index(),count()
-
-# we have 3 methods for adding elements in list
-# 1. append() : adds element at the end of list
-# 2. insert() : adds element at specified position in list
-# 3. extend() : adds multiple elements at the end of list
-# 4. add() : adds multiple elements at specified position in list
-
-#eg::
 # l1=[10,20,30,40,50]
 # print("Original List ::",l1)
 # l1.append(60)
@@ -64,13 +61,8 @@
 # l1.reverse()
 # print("reversed List ::",l1)
 
+## Removing elements: remove(), pop(), clear()
 
-# we have 3 methods for removing elements from list
-# 1. remove() : removes first occurrence of element in list
-# 2. pop() : removes element at specified position in list
-# 3. clear() : removes all elements from list
-
-#eg::
 # l1=[10,20,30,40,50]
 # print("Original List ::",l1)
 # l1.remove(30)
@@ -80,13 +72,8 @@
 # l1.clear()
 # print("Now List ::",l1)
 
-# some other methods
-# 1. count() : returns count of element in list
-# 2. index() : returns index of element in list
-# 3. sort() : sorts list in ascending order
-# 4. reverse() : reverses list
+## Other methods: count(), index(), sort(), reverse()
 
-#eg::
 # l1=['s','i','o','h','i']
 # print("Original List ::",l1)
 # print("Count of i in list ::",l1.count('i'))
@@ -102,8 +89,10 @@
 #     my_list.append(num)
 # print(my_list)
 
+# ============================================
+#           LIST OPERATIONS
+# ============================================
 
-# LIST OPERATION
 a=[1,2,3,4,5]
 b=[10,20,30,40,50]
 
@@ -127,11 +116,16 @@ print(min(a))
 print(sum(a))
 print(len(a))
 
-# MemberShip Test in list
+# ============================================
+#      Membership Test in List
+# ============================================
+
 LIST=[1,2,3,4,"isha"]
 print("isha" in LIST)
 
-# For ASCII Values 
+# ============================================
+#      ASCII Values
+# ============================================
+
 print(ord('A'))
 print(ord('a'))
-

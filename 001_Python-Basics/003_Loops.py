@@ -1,4 +1,6 @@
-# Loops : for , while
+# ============================================
+#               Loops : for , while 
+# ============================================
 
 for i in range(-1,-10,-2):
     pass         # No error will come 
@@ -12,9 +14,12 @@ for i in range(-1,-10,-2):
 #     print("hello",a)
 #     a+=1
 
-# ******QUESTIONS*******
 
-## Q1 Even no.
+# ============================================
+#               ****** QUESTIONS ******
+# ============================================
+
+## --------------- Q1: Even Numbers ---------------
 # print("All Even no. till 10 are ::")
 # count=0
 # for i in range(0,11,2):
@@ -22,21 +27,21 @@ for i in range(-1,-10,-2):
 #     count+=1
 # print("\nTotal no. of even no. are :: " , count)
 
-## Q2 Sum of n natural numbers
+## --------------- Q2: Sum of n Natural Numbers ---------------
 # n=int(input("Enter value of n: "))
 # sum=0
 # for i in range(n+1): # We can also write range(1,n+1)
 #     sum=sum+i
 # print("Sum is:",sum)
 
-## Q3 program to calculate factorial of a no.
+## --------------- Q3: Factorial of a Number ---------------
 # n=int(input("Enter value of n: "))
 # fac=1
 # for i in range(2,n+1): # We can also use range(n,0,-1)
 #     fac=fac*i
 # print("Factorial is:",fac)  
 
-## Q4 menu driven Program 
+## --------------- Q4: Menu-Driven Program ---------------
 # option="y"
 # while(option!="n"):
 #     print("Enter 1 for add")
@@ -61,27 +66,31 @@ for i in range(-1,-10,-2):
 #     option=input()
 # print("Program Ended Sucessfully ")    
 
-# Transfer control statemnts 
-#pass :: when we don't want to do work 
-#break :: which will break the current loop
-#continue:: skip the current iteration 
 
-# #eg
+# ============================================
+#       Transfer Control Statements
+# ============================================
+
+# pass :: when we don't want to do work 
+# break :: which will break the current loop
+# continue:: skip the current iteration 
+
+# -------- eg: break --------
 # for i in range(1,10):
 #     if (i==5):
 #         break
 #     print(i,end=" ")
 # print("End")
 
-# #eg 
+# -------- eg: continue --------
 # for i in range(1,10):
 #     if (i==5):
 #         continue
 #     print(i)
 # print("End")    
 
-## we can use for ke sath else
-# #eg:
+## We can use else with for loop
+# -------- eg: check prime --------
 # num=int(input("Enter number::"))
 # for i in range(2,(num//2)+1):
 #     if (num % i==0):
@@ -90,9 +99,11 @@ for i in range(-1,-10,-2):
 # else:
 #     print("Prime")
 
-# ***Questions***
 
-# Q1 Check prime no.
+# ============================================
+#         ***Q1: Check Prime Number***
+# ============================================
+
 num=int(input("Enter number::"))
 for i in range(2,(num//2)+1):
     if (num % i==0):
@@ -105,5 +116,3 @@ if(flag==0):
     print("Not Prime")
 else:
     print("Prime")
-
-

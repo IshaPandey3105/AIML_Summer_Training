@@ -1,13 +1,15 @@
-# Control Flow Statments ::: If , elif , else 
+# ============================================
+#    Control Flow Statements ::: if, elif, else  
+# ============================================
 
-# #Q1 Find odd and even 
+# --------------- Q1: Find Odd and Even ---------------
 # a=int(input("Enter a no."))
 # if (a%2==0):
 #     print(f"{a} is even")
 # else:
 #     print(a,"is odd")    
 
-##Q2 Grase marks    
+# --------------- Q2: Grace Marks ---------------
 # m=int(input("Enter a marks"))
 # if (m<35):
 #     print("fail")
@@ -16,7 +18,7 @@
 # else:
 #     print("pass")    
 
-# #Q3 Menu driven program calculator
+# --------------- Q3: Menu-Driven Calculator ---------------
 # print("Enter 1 for add")
 # print("Enter 2 for sub ")
 # print("Enter 3 for mul ")
@@ -36,7 +38,7 @@
 # else:
 #     print("invalid option ")
 
-# # #Q4 trafic light 
+# --------------- Q4: Traffic Light ---------------
 # color=input("Enter color :").lower()   
 # if(color=="red"):
 #     print("stop!")
@@ -47,7 +49,7 @@
 # else:
 #     print("Invalid")   
 
-# # Q5 Electricity bill
+# --------------- Q5: Electricity Bill ---------------
 # units=int(input("Enter units :"))
 # if(units<=100):
 #     prize=units*5
@@ -57,7 +59,7 @@
 #     prize= 100*5+(units-100)*7  
 # print("bill:: ",prize)
 
-# #Q6 Grade classification
+# --------------- Q6: Grade Classification ---------------
 # p=int(input("enter percentage :"))
 # if(p>=90):
 #     print("A+")
@@ -70,7 +72,7 @@
 # else:
 #     print("Fail")
 
-# #Q7 leap year
+# --------------- Q7: Leap Year Check ---------------
 year=int(input("Enter year :"))
 if(year%4==0):
     if(year%100==0):
