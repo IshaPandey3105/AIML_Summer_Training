@@ -1,0 +1,137 @@
+# LIST (data structure)
+# To store various types of data
+# ordered collection of items (Heterogeneous elems)
+
+# student_details=["Isha",90,"Python","Delhi"]
+# print(student_details)
+# fruits=["Apple","Kiwi","Banana","cherry"]
+# for i in fruits:
+#     print("I Like ", i)
+
+
+
+# Accessing the elements (Indexing and Slicing )
+
+# 1. Indexing : When we want to retrive single element from list
+
+# marks=[20,30,40,50,60,70]
+# print(len(marks))   # For counting the number of elements in list
+# print(marks[2])  
+# print(marks[-2])
+# print("Marks are ::")
+# for i in range(0,len(marks)):   # But we can use direct list name as above
+#     print(marks[i])
+
+# 2. Slicing : when we want to retrive a part of list
+
+# #list[start:stop:step]
+# print(marks[2:7:1])
+# print(marks[2:7])
+# print(marks[:7:2])
+# print(marks[:3:])
+# print(marks[::5])
+# print(marks[2])          # single Elem
+# print(marks[-2:-3:-1])  # Negative Indexing
+# print(marks[-6:-3:-1])  
+# print(marks[::-1])  # Reverse
+# print(marks[::])    # Full List
+
+# l1 = list(range(0, 10))
+# print(l1)
+# print(l1[4:])
+
+
+
+## LIST METHODS :- append (),insert(),remove(),pop(),sort(),reverse(),index(),count()
+
+# we have 3 methods for adding elements in list
+# 1. append() : adds element at the end of list
+# 2. insert() : adds element at specified position in list
+# 3. extend() : adds multiple elements at the end of list
+# 4. add() : adds multiple elements at specified position in list
+
+#eg::
+# l1=[10,20,30,40,50]
+# print("Original List ::",l1)
+# l1.append(60)
+# print("Now List ::",l1)
+# l1.insert(2,100)
+# print("Now List ::",l1)
+# l1.extend([1,2,3,4])
+# print("Now List ::",l1)
+# l1.sort()
+# print("sorted List ::",l1)
+# l1.reverse()
+# print("reversed List ::",l1)
+
+
+# we have 3 methods for removing elements from list
+# 1. remove() : removes first occurrence of element in list
+# 2. pop() : removes element at specified position in list
+# 3. clear() : removes all elements from list
+
+#eg::
+# l1=[10,20,30,40,50]
+# print("Original List ::",l1)
+# l1.remove(30)
+# print("Now List ::",l1)
+# l1.pop(2)
+# print("Now List ::",l1)
+# l1.clear()
+# print("Now List ::",l1)
+
+# some other methods
+# 1. count() : returns count of element in list
+# 2. index() : returns index of element in list
+# 3. sort() : sorts list in ascending order
+# 4. reverse() : reverses list
+
+#eg::
+# l1=['s','i','o','h','i']
+# print("Original List ::",l1)
+# print("Count of i in list ::",l1.count('i'))
+# print("Index of i in list ::",l1.index('i'))
+# l1.sort()
+# print("sorted List ::",l1)
+# l1.reverse()
+# print("reversed List ::",l1)
+
+# my_list=[]
+# for i in range(5):
+#     num=int(input("enter Elem::"))
+#     my_list.append(num)
+# print(my_list)
+
+
+# LIST OPERATION
+a=[1,2,3,4,5]
+b=[10,20,30,40,50]
+
+c=a+b
+print(c)
+
+d=a*2
+print(d)
+
+a.reverse()
+print(a)
+
+b.sort()  # ascending 
+print(b)
+
+b.sort(reverse=True)   # descending
+print(b)
+
+print(max(a))
+print(min(a))
+print(sum(a))
+print(len(a))
+
+# MemberShip Test in list
+LIST=[1,2,3,4,"isha"]
+print("isha" in LIST)
+
+# For ASCII Values 
+print(ord('A'))
+print(ord('a'))
+
