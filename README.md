@@ -29,7 +29,7 @@ The training focuses on developing Python programming skills as the foundation f
 - **Exception Handling**: try-except, finally, custom exceptions  
 - **Object-Oriented Programming (OOP)**: classes, objects, inheritance, polymorphism  
 
-### 🤖 AI & Machine Learning (Upcoming / In Progress)
+### 🤖 AI & Machine Learning (Upcoming)
 - Introduction to AI and machine learning concepts  
 - Types of learning: supervised, unsupervised, reinforcement  
 - Supervised learning algorithms: linear regression, decision trees, random forest  
@@ -39,13 +39,7 @@ The training focuses on developing Python programming skills as the foundation f
 
 ## 💻 Tools & Technologies  
 - Python 3.x  
-- Jupyter Notebook / Google Colab  
+- Jupyter Notebook
 - NumPy, Pandas (upcoming)  
 - Scikit-learn (upcoming)  
 - TensorFlow / Keras (upcoming for deep learning)
-
-## 📂 Repository Structure  
-📁 notebooks/       # Jupyter notebooks for exercises and examples  
-📁 python_basics/   # Python practice files  
-📁 projects/        # Mini-projects and assignments  
-📄 README.md        # This file  
