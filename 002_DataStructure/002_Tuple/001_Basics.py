@@ -4,7 +4,7 @@
 
 # It is a collection of multiple values in an ordered sequence.
 # Tuples are immutable (cannot be changed after creation).
-# Mutable: list, dict, set
+# Mutable: list, dictionary and set
 # Immutable: tuple, string, int, float etc
 
 # Check mutability with id()
