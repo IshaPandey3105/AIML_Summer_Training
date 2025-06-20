@@ -2,6 +2,13 @@
 #               Loops : for , while 
 # ============================================
 
+# Loops are used to execute a block of code repeatedly for a specified number of times.
+# There are two types of loops in Python: for and while loops.
+# For loops are used to iterate over a sequence (such as a list, tuple, dictionary, set, or string)
+# while loops are used to execute a block of code as long as a certain condition is met.
+
+# ============================================
+
 for i in range(-1,-10,-2):
     pass         # No error will come 
     # print("hi" , i,end=" ")

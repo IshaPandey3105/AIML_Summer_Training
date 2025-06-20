@@ -2,6 +2,8 @@
 #           LIST (Data Structure)
 # ============================================
 
+# List is a collection of items which are ordered and changeable.
+# Lists are denoted by squar brackets [] and items are separated by comma.
 # To store various types of data
 # ordered collection of items (Heterogeneous elems)
 

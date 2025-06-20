@@ -1,6 +1,16 @@
+# Python is a high-level, interpreted programming language 
+# That is widely used for various purposes such as web development, scientific computing , data analysis, artificial intelligence, and more.
+# Python is known for its simplicity, readability, and ease of use, making it a popular choice 
+# In Python code is compliled into bytecode (.py) which is then executed by the Python interpreter.
+# Python is a dynamically typed language, which means that you don't need to declare the data type of a variable before using it.
+# Python has a vast collection of libraries and frameworks that make it suitable for a wide range of applications
+
 # ============================================
 #             TYPE CASTING SECTION
 # ============================================
+# Type casting is the process of converting a value from one data type to another.
+# Python supports both explicit and implicit type casting.
+
 print("--Type Casting--")
 # Implicit --> Automatic conversion of data type
 a = 5

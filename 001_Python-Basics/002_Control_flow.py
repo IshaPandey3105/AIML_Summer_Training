@@ -2,6 +2,14 @@
 #    Control Flow Statements ::: if, elif, else  
 # ============================================
 
+# control Flow statements are used to control the flow of a program's execution based on certain conditions.
+# if, elif, else are the most commonly used control flow statements in Python.
+# if statement is used to execute a block of code if a condition is true.
+# elif statement is used to check another condition if the first condition is false.
+# else statement is used to execute a block of code if all conditions are false.
+
+# ============================================
+
 # --------------- Q1: Find Odd and Even ---------------
 # a=int(input("Enter a no."))
 # if (a%2==0):

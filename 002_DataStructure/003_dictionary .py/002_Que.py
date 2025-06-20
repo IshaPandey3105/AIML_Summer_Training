@@ -52,3 +52,49 @@ print("Subject-wise Percentages")
 for i, j in s.items():
     percentage = (sum(j) / 500)*100
     print(f"{i} : {percentage}%")
+
+# ============================================
+
+# Q5 Make a dictionary having squares of no.
+square_dict = {}
+n=int(input("Enter Till which number you want to calculate squares : "))
+for i in range(1,n+1):
+    square_dict[i]=i*i
+print(square_dict)
+
+# ============================================
+
+## Q6 Create a dictionary to calculate the frequency of each no. in a given sentence
+L1=[3,3,4,5,3,1,4,1,8,9]
+D1={}
+for i in L1:
+    a=L1.count(i)
+    D1[i]=a
+print(D1)
+
+#Or
+
+L1=[3,3,4,5,3,1,4,1,8,9]
+D1={}
+for i in L1:
+    if i in D1:
+        D1[i]=D1[i]+1
+    else:
+        D1[i]=1
+print(D1)
+
+# ============================================
+
+## Q7 Convert dollar into rupees
+items_dollers={"milk":90,"butter":150,"bread":40}
+items_rupees={}
+for i in items_dollers:
+    items_rupees[i]=items_dollers[i]*85
+print(items_rupees)
+
+# Or By making other dictionary
+items_dollers={"milk":90,"butter":150,"bread":40}
+items_rupees={}
+for i,j in items_dollers.items():
+    items_rupees[i]=j*85
+print(items_rupees)

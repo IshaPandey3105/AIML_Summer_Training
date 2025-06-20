@@ -34,7 +34,7 @@ students["dav"] = 60    # Adding new key-value pair
 print(students)
 
 # ---------------- Deleting a key-value pair ----------------
-
+print("@@ Deleting @@")
 del students["ram"]
 print(students)
 
@@ -68,10 +68,45 @@ print(students.values())
 print(students.items())
 
 print(students.get("neha"))  # Prints 100
-print(students.get("isha"))  # Prints None
+print(students.get("isha"))  # Prints None 
 
-print(students.pop("dav"))
+print(students.pop("dav"))  # Prints 60 and removes key from dictionary
 print(students)
 
 print(students.clear())  # Prints None
 print(students)          # Prints {} (empty dictionary)
+
+
+# ---------------- Sorting ----------------
+
+# 1. Sorting keys of dictionary
+age={"isha": 20,"lisa":30,"abel":60}
+
+print(sorted(age))
+print(sorted(age , reverse=True))
+print(age)
+
+for i in sorted(age):
+    print(i,"=>",age[i])
+
+revised_age={}
+for i in sorted(age):
+    revised_age[i]=age[i]
+print(revised_age)
+
+
+# 1. Sorting values od Dictionary 
+
+for i in sorted(age.values()):
+    print(i ,"age")
+
+# or
+
+# for Ascending order
+for i in sorted(age,key=age.get):
+    print(i ,"is" ,age[i])
+
+# for Descending order
+for i in sorted(age,key=age.get,reverse=True):
+    print(i ,"is" ,age[i])
+
