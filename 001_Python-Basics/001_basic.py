@@ -96,16 +96,55 @@ print((5 & 3), (5 | 3), (~5), (5 ^ 3), (5 << 2), (5 >> 2))  # 1 6 -6 2 20 -2
 # print(f"Area of triangle is : {(T_b * h) / 2}")
 
 # --------------- Q6: Quadratic Equation Roots ---------------
-import math 
-b = float(input("Enter b : "))
-a = float(input("Enter a : "))
-c = float(input("Enter c : "))
-discriminant = b**2 - 4*a*c
+# import math 
+# b = float(input("Enter b : "))
+# a = float(input("Enter a : "))
+# c = float(input("Enter c : "))
+# discriminant = b**2 - 4*a*c
 
-if discriminant > 0:
-    sqrt_d = math.sqrt(discriminant)
-    r1 = (-b + sqrt_d) / (2 * a)
-    r2 = (-b - sqrt_d) / (2 * a)
-    print(r1, r2)
-else:
-    print("Roots don't exist")
+# if discriminant > 0:
+#     sqrt_d = math.sqrt(discriminant)
+#     r1 = (-b + sqrt_d) / (2 * a)
+#     r2 = (-b - sqrt_d) / (2 * a)
+#     print(r1, r2)
+# else:
+#     print("Roots don't exist")
+
+# ============================================
+#             Pattern Printing Programs
+# ============================================
+
+print("************")
+# for i in range(1, 6):
+#     for j in range(1, i + 1):
+#         print(j, end=" ")
+#     print()             # to move to the next line after inner loop
+
+for i in range(3,0,-1):
+    # print(i,end=" ")
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
+for i in range(1, 4):
+    for j in range(1, i + 1):
+        print(j, end=" ")
+    print() 
+
+# a=1
+# while(a<=5):
+#     b=1
+#     while(b<=a):
+#         print(b,end=" ")
+#         b+=1
+#     print()
+#     a+=1
+
+print("************")
+a=3
+while(a>=1):
+    b=1
+    while(b<=a):
+        print(b,end=" ")
+        b+=1
+    print()
+    a-=1

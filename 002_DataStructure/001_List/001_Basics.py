@@ -44,6 +44,18 @@
 # print(l1)
 # print(l1[4:])
 
+## printing of range fn
+a=range(1,10)
+print(type(a))
+print(list(a)) 
+
+l2 = list(range(0, 10))
+print(l2)  
+
+for i in range(1,100):
+    if(i%3==0) and (i%5==0):
+        print(i)
+
 # ============================================
 #        LIST METHODS
 # ============================================
