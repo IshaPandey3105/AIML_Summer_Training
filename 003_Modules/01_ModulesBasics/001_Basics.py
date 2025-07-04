@@ -99,6 +99,16 @@ print(MyModule.greet(n))
 print("Square of 5:", MyModule.square(5))
 print("Value of pi:", MyModule.pi) 
 
+print("##################")
+import os            # os is a built-in module use to interact with the operating system and give the information about the system.
+print(os.getcwd())
+
+import sys           # sys is a built-in module use to interact with the Python interpreter and give the information about
+print(sys.path)   # escape sequence are \n ,\t
+sys.path.append(r"D:\dev_py\modules")
+print(sys.path)     # append path to sys.path
+
+
 # ----------------------------------------------------------
 # 3. Third-party Modules (External Modules)
 # ----------------------------------------------------------
