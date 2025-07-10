@@ -80,17 +80,47 @@
 # else:
 #     print("Fail")
 
-# --------------- Q7: Leap Year Check ---------------
-year=int(input("Enter year :"))
-if(year%4==0):
-    if(year%100==0):
-        if(year%400==0):
-            print("leap year")    
-        else:
-            print("not leap year")
-    else:
-        print("leap year")
-else:
-    print("not leap year")
+# # --------------- Q7: Leap Year Check ---------------
+# year=int(input("Enter year :"))
+# if(year%4==0):
+#     if(year%100==0):
+#         if(year%400==0):
+#             print("leap year")    
+#         else:
+#             print("not leap year")
+#     else:
+#         print("leap year")
+# else:
+#       print("not leap year")
 
-    
+# ============================================
+#           match...case statement
+#  ============================================    
+
+# match...case statement is used to handle multiple conditions in a single statement.
+# It is similar to if-elif-else statements but more concise and readable.
+# The match...case statement is available in Python 3.10 and later versions.
+
+# SYNTAX
+
+# match expression:
+#     case pattern1:
+#         # Code block 1
+#     case pattern2:
+#         # Code block 2
+#     case _:
+#         # Default code block (wildcard)
+
+
+http_status = 404
+
+match http_status:
+    case 200:
+        print("OK")
+    case 404:
+        print("Not Found")
+    case 500:
+        print("Server Error")
+    case _:
+        print("Unknown status")
+

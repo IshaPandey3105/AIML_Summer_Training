@@ -41,3 +41,7 @@ def print_all(*args):
         print(item , end=" ")
 
 print_all("AI", "ML", "Python", "Data Science")
+
+# 4. A lambda function to add two numbers
+add_numbers = lambda a, b: a + b
+print(add_numbers(5, 3))  # Output: 8
