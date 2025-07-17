@@ -66,13 +66,13 @@ print("Count of i:", count)    # Output: 2
 
 # ---------------- Common String Functions ----------------
 
-str1 = "nieLiT"
+str1 = "nieLiT astha"
 
 print(len(str1))           # 6
-print(str1.upper())        # NIELIT
-print(str1.lower())        # nielit
-print(str1.capitalize())   # Nielit
-print(str1.title())        # NielIt
+print(str1.upper())        # NIELIT ASTHA
+print(str1.lower())        # nielit astha
+print(str1.capitalize())   # Nielit astha
+print(str1.title())        # Nielit Astha
 print(str1.islower())      # False
 print(str1.isalpha())      # True
 print(str1.isdigit())      # False

@@ -21,7 +21,7 @@ print("Duplicated removes:",my_set)  # O/P ::{1, 2, 3, 4,5}
 # Creating a Set:
 
 # Using curly braces
-fruits = {"apple", "banana", "cherry"}
+fruits = {"apple", "banana", "cherry" ,1}
 
 # Using set() function
 numbers = set([1, 2, 3, 4])
