@@ -103,7 +103,7 @@ print("##################")
 import os            # os is a built-in module use to interact with the operating system and give the information about the system.
 print(os.getcwd())
 
-import sys           # sys is a built-in module use to interact with the Python interpreter and give the information about
+import sys           # sys is a built-in module use to interact with the Python interpreter and give the information about the Python interpreter.
 print(sys.path)   # escape sequence are \n ,\t
 sys.path.append(r"D:\dev_py\modules")
 print(sys.path)     # append path to sys.path
@@ -120,3 +120,93 @@ print(sys.path)     # append path to sys.path
 # pandas – for data analysis
 
 # matplotlib – for data visualization 
+
+# sklearn - for machine learning
+
+# pytorch - for deep learning
+
+# seabon - for data visualization
+
+# tensorflow - for deep learning
+
+# keras - for deep learning
+
+# # ----------------------------------------------------------
+# 3. Third-party Modules (External Modules)
+# ----------------------------------------------------------
+# You install these using pip.
+# 👉 Example:
+
+# numpy – for numerical operations
+
+# pandas – for data analysis
+
+# matplotlib – for data visualization 
+
+# sklearn - for machine learning
+
+# pytorch - for deep learning
+
+# seabon - for data visualization
+
+# tensorflow - for deep learning
+
+# keras - for deep learning
+# ----------------------------------------------------------
+# 3. Third-party Modules (External Modules)
+# ----------------------------------------------------------
+# You install these using pip.
+# 👉 Example:
+
+# numpy – for numerical operations
+
+# pandas – for data analysis
+
+# matplotlib – for data visualization 
+
+# sklearn - for machine learning
+
+# pytorch - for deep learning
+
+# seabon - for data visualization
+
+# tensorflow - for deep learning
+
+# keras - for deep learning# ----------------------------------------------------------
+# 3. Third-party Modules (External Modules)
+# ----------------------------------------------------------
+# You install these using pip.
+# 👉 Example:
+
+# 🔢 Numerical & Scientific Computing
+# numpy – for numerical operations
+# scipy – for scientific computations
+
+# 📊 Data Handling & Analysis
+# pandas – for data manipulation
+# dask – for parallel data processing
+
+# 📈 Data Visualization
+# matplotlib – for basic 2D plotting
+# seaborn – for statistical data visualization
+
+# 🤖 Machine Learning
+# sklearn – for traditional ML algorithms
+# xgboost – for gradient boosting
+
+# 🧠 Deep Learning
+# tensorflow – deep learning framework by Google
+# pytorch – deep learning framework by Facebook
+# keras – deep learning framework by Google
+
+# 💬 Natural Language Processing (NLP)
+# nltk – natural language toolkit
+# transformers – pretrained models like BERT, GPT (by HuggingFace)
+
+# 🧹 Data Cleaning
+# missingno – for visualizing missing data
+# fuzzywuzzy – for fuzzy string matching
+
+# 🌐 Web Development
+# flask – lightweight web framework
+# django – full-featured web framework
